@@ -13,8 +13,8 @@ header {
     background-color: #10badc;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 30px 100px;
-
 }
 
 .form-header {
@@ -43,19 +43,22 @@ header {
 .lista-icone {
     display: none;
 }
+
 .div-card {
     border: 1px solid #9f9c9c;
-    width: 15%;
+    width: 230px;
     text-align: center;
 }
 
 .div-card  img {
     width: 80%;
     
+    
 }
 
 .section-cards {
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
 }
 
@@ -75,6 +78,7 @@ header {
     display: flex;
     justify-content: center;
     background-color: #cec0c0;
+    height: 270px;
 }
 
 h2 > a {
