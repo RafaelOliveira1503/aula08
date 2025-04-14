@@ -15,6 +15,10 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 30px 100px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
 }
 
 .form-header {
@@ -60,6 +64,7 @@ header {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 
 .tag-p {
@@ -111,5 +116,25 @@ h2 > a {
 }
 /* (width = 998px) ou (max-width: 998px) */
 @media screen and (width <= 998px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+    .form-header {
+        order: 2;
+        width: 100%;
+    }
+
+    .form-header input {
+        width: 120%;
+    }
+
+    .lista-icone {
+        display: inline;
+    }    
+
+    .lista-links li {
+            display: none;
+    }
     
 }
