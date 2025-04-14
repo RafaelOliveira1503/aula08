@@ -5,8 +5,28 @@
     outline: 0;
     box-sizing: border-box;
     text-decoration: none;
+    font-family: "Inter", sans-serif;
 }
 
+header {
+    color: #000000;
+    background-color: #10badc;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+
+}
+
+.nav-header, .nav-header ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+
+.lista-icone {
+    display: none;
+}
 .div-card {
     border: 1px solid #9f9c9c;
     width: 15%;
@@ -38,4 +58,34 @@
     position: relative;
     display: flex;
     justify-content: center;
+    background-color: #cec0c0;
+}
+
+h2 > a {
+    font-size: 15px;
+}
+
+.div-titulo {
+       font-size: 20px;
+
+}
+
+.div-titulo button {
+    background-color: black;
+    color: white;
+    width: 25px;
+    height: 25px;
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 2px;
+    border-radius: 50%;
+}
+
+.div-titulo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-texto {
+    padding: 10px;
 }
